@@ -1,0 +1,2 @@
+pierwszy,drugi,trzeci,czwarty,
+piaty,szusty,siudmy,osmy,

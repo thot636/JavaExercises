@@ -1,0 +1,26 @@
+good example:
+
+http://www.programmerinterview.com/index.php/java-questions/when-to-use-inner-classes-in-java/
+
+
+in short:
+
+you have GUI window to chat and you need to write to types of methods:
+1)  logic methods, like e.g. writing input text in StringBuffer, or sending input text to other side via RMI
+
+2) u need method which capture events (like pressing enter) and then invoke "logic method" responsible for sending text via RMI
+
+that's y u create main class which have 'logic methods' and inner class which will have events and handler method 
+
+*** ADVENTAGES ****
+01) inner class have access to private members of outer classes
+02) inner classes can inherit different class and outer can inherit different class as well.
+03) the are separated but together :p
+
+
+****************************
+** Features ***
+
+Static nested classes need to use instance's variable to use outer class instance fields & methods (static one works fine) thus cannot access private member of outer class ( non-static inner class - can access private fields of outer class). That's why when u wanna have access to fileds and methods of outer class use non-static inner class 
+
+Non static inner class can have access to private fields & metohds outer class., but they cannot decalre any static fields, metohds in their bodies...

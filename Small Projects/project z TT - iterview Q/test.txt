@@ -1,0 +1,4 @@
+Jan;Kowalski;0334343;Tokyo;
+Stefan;Blade;0588445;Wa-wa;
+Anna;Dymalska;05458545;Konskie;Rafal;
+Rafal;Witkowski;05450587;Cieciowice;

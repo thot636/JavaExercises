@@ -1,0 +1,6 @@
+//1.)For Overriding(Sub classing) ,When class definition is not usable except current case:
+
+//2.)For implementing an interface,When implemention of interface is required only for current case:
+
+
+examples are in catalogue - anonymous classes

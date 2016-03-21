@@ -1,0 +1,5 @@
+check if a both strings are annagram :
+
+01) differen order of letters
+02) 2nd string need to use ALL LATTERS fro m1st String
+03) cannot use any other letter than from 1st String

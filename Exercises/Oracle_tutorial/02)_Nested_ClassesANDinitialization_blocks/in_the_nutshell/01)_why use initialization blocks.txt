@@ -1,0 +1,24 @@
+**** Static Initialization Block ****
+
+is used to set values of static field if it cannot be done in one line 
+e.g. static final constants, when some calculations preecede value assignment to this constant 
+class Test2 is an example
+
+!!! important !!! ->  statick block runs JUST ONE when class is CONSTRUCTED 
+contructed it means: 1) when object of class os created, 02) static metohod from that class is used
+in another class e.g. Test2.statMeth(); in class Test
+
+**** Initialization Block *****
+
+
+adventage: no matter which contructor you invoke this code always runs!
+
+Instance Initialization blocks run every time a class instance is created.
+Instance Initialization blocks run after the constructor’s call to super().
+
+why to use it ?
+
+- When you have multiple constructors or overloaded constructors in your class, And you have certain common operation or initialization in each constructor then you can write those common operations in instance initialization block.
+
+- This way we make sure that irrespective of any constructor invoked that common operations would be executed or taken care by JVM itself.
+

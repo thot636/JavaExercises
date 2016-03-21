@@ -1,0 +1,14 @@
+// i nhere I dont need outer class object
+
+static nested class:
+
+OuterClass.StaticNestedClass nestedObject =
+     new OuterClass.StaticNestedClass();
+
+
+non-static inner class:
+
+// here I need outer class object...
+
+OuterClass.InnerClass innerObject = outerObject.new InnerClass();
+OuterClass.InnerClass innerObject = this.new InnerClass();//inside outer class

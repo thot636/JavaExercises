@@ -1,0 +1,6 @@
+java WatchDir test &
+
+you need to create test directory in the java file location
+
+
+. When you have finished, delete the test directory and WatchDir exits. Or, if you prefer, you can manually kill the process.
